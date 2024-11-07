@@ -1,0 +1,106 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1F2024;
+    color: #1F2024;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color:#8C1F28;
+}
+
+/* Стилі для меню */
+.menu {
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+
+
+.main_column {
+    display: grid;
+    grid-template-rows: 2;
+    justify-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* margin: 40px 0; */
+}
+
+.student {
+    background-color: #B4BEC9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 220px;
+}
+
+.student:hover {
+    transform: translateY(-5px) scale(1.05);
+}
+
+.student img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.student h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.student p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.links {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.links a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.links input {
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.box {
+    position: relative;
+    color: #fff;
+    border-radius: 3px;
+    opacity: 0,2;
+}
+h1 {
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+p {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
