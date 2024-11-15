@@ -12,7 +12,6 @@ h1 {
     color:#8C1F28;
 }
 
-/* Стилі для меню */
 .menu {
     justify-content: center;
     gap: 20px;
@@ -22,13 +21,13 @@ h1 {
 
 
 
-.main_column {
+.main-column {
     display: grid;
     grid-template-rows: 2;
     justify-items: center;
     flex-wrap: wrap;
     gap: 10px;
-    /* margin: 40px 0; */
+    margin: 40px 0;
 }
 
 .student {
